@@ -22,7 +22,7 @@ best <- funtion(state,outcome) {
     colnum <- 11 }
   if (outcome == "heart failure") {
     colnum <- 17 }
-  else {colmun <- 23 }
+  else {colnum <- 23 }
   }
   }
 }
