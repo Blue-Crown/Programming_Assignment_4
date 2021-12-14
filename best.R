@@ -36,3 +36,4 @@ hospitals <- sort(hospital_names) ##sorting hospitals alphabetically
                  
 print(hospitals[1]) ##returns the name of the first hospital in the list
 }
+#
