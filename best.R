@@ -32,5 +32,5 @@ min_row <- which(as.numeric(state_subset[ ,columnNo]) ==
                  ##lists the row with min deaths, skipping NA values
                  hospital_names <- state_subset[min_row,2] ##list of hospital names with min deaths
                  hospitals <- sort(hospital_names) ##sorting hospitals alphabetically
-                 print(hospitals[1]) ##return the name of the first hospital in the list
+                 print(hospitals[1]) ##returns the name of the first hospital in the list
 }
