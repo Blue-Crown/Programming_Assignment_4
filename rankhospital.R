@@ -42,7 +42,7 @@ ranked_subset <- ranked_subset[(!is.na(ranked_subset[ ,columnNo])), ]
 if (num == "best") {
   rank <- 1 
   }
-if (num == "worst") {
+else if (num == "worst") {
   ##find number of hospitals that fit state + outcome specified, choose last place
   rank <- nrow(ranked_subset) 
   }
