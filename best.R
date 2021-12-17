@@ -23,7 +23,8 @@ best <- function(state,outcome)
     columnNo <- 11 }
   else if (outcome == "heart failure") {
     columnNo <- 17 }
-  else (columnNo <- 23)
+  else {
+    (columnNo <- 23)}
 
 ##print hospital name associated with minimum deaths in specified state and 
 ##outcome:
