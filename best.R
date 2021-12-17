@@ -21,7 +21,7 @@ best <- function(state,outcome)
   ##specify column number based on outcome (i.e. medical condition) entered:
   if (outcome == "heart attack") { 
     columnNo <- 11 }
-  if (outcome == "heart failure") {
+  else if (outcome == "heart failure") {
     columnNo <- 17 }
   else (columnNo <- 23)
 
